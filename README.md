@@ -38,7 +38,7 @@ https://wireframe.cc/sD5IAT
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 10-12| Prompt for Pitch | Complete
-|July 13| Project Approval | Incomplete
+|July 13| Project Approval | Complete
 |July 13| Adding layout for mobile | Incomplete
 |July 13| Adding CSS | Incomplete
 |July 13| Adding Media Queries CSS  | Incomplete
@@ -48,7 +48,6 @@ https://wireframe.cc/sD5IAT
 |July 15| Fetch API | Incomplete
 |July 15| Fetch API after each button clicked | Incomplete
 |July 15| Let API reset after each button clicked again  | Incomplete
-|July 15| Repeat/Fetch API after each button clicked| Incomplete
 |July 16| MVP | Incomplete
 |July 17| Presentations | Incomplete
 

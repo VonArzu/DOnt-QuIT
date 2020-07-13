@@ -2,19 +2,19 @@
 
 ## Project Name
 
-The name of your project.
+(Do)nt Qu(it)
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I want to expand on my humanitarian skillset by giving advice/short motiovational quotes based on the emoji(feelings) selected on the app. Easily understood with wireframe demonstration
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+https://wireframe.cc/sD5IAT
 
 ### MVP/PostMVP
 
@@ -23,15 +23,17 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Select a random motivational quote api
+- Graphics of emojis for buttons/feelings	
+- Allow user to select feelings by emoji/button
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- 8 ball movements, like, shuffle on refresh page
+- Add design/css
+- Add animation
+
 
 ## Project Schedule
 

@@ -53,10 +53,14 @@ Include a full list of features that have been prioritized based on the `Time an
 | --- | :---: |  :---: | :---: | :---: |
 | Adding layout for mobile | H | 5hrs| 0hrs | 0hrs |
 | Adding CSS| L | 3hrs| 0hrs | 0hrs |
+| Adding Media Queries CSS| L | 4hrs| 0hrs | 0hrs |
 | Adding buttons| H | 4hrs| 0hrs | 0hrs |
 | Adding emojis for graphic | M | 2hrs| 0hrs | 0hrs |
-| Fetch API after each button clicked | H | 3hrs| 0hrs | 0hrs |
-| Total | H | 17hrs| 0hrs | 0hrs |
+| Fetch API| H | 3hrs| 0hrs | 0hrs |
+| Fetch API after each button clicked| H | 3hrs| 0hrs | 0hrs |
+| Let API reset after each button clicked again| H | 2hrs| 0hrs | 0hrs |
+| Fetch API after each button clicked | H | 2hrs| 0hrs | 0hrs |
+| Total | H | 28hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 

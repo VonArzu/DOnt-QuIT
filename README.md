@@ -10,7 +10,7 @@ I want to expand on my humanitarian skillset by giving advice/short motiovationa
 
 ## API and Data Sample
 
-
+Having trouble finding a valid API
 
 ## Wireframes
 
@@ -35,7 +35,7 @@ https://wireframe.cc/sD5IAT
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Valid API and Priority Matrix  | Incomplete
+|July 10-12| Valid API | Incomplete
 |July 13| Project Approval | Incomplete
 |July 13| HTML with buttons and Mobile media query in CSS | Incomplete
 |July 14| Fetching the API to preform | Incomplete
@@ -45,7 +45,7 @@ https://wireframe.cc/sD5IAT
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://app.lucidchart.com/invitations/accept/258c06a4-38f1-4404-a607-ea2c29f0274c
 
 ## Timeframes
 

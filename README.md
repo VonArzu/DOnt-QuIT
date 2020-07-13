@@ -1,5 +1,7 @@
 # Project Overview
 
+Universal motivational quotes with cool aesthetic
+
 ## Project Name
 
 (Do)nt Qu(it)
@@ -10,7 +12,7 @@ I want to expand on my humanitarian skillset by giving advice/short motiovationa
 
 ## API and Data Sample
 
-Having trouble finding a valid API
+https://type.fit/api/quotes
 
 ## Wireframes
 
@@ -35,11 +37,18 @@ https://wireframe.cc/sD5IAT
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Valid API | Incomplete
+|July 10-12| Prompt for Pitch | Complete
 |July 13| Project Approval | Incomplete
-|July 13| HTML with buttons and Mobile media query in CSS | Incomplete
-|July 14| Fetching the API to preform | Incomplete
-|July 15| First draft of buttons clicked and giving a motivational quote  | Incomplete
+|July 13| Adding layout for mobile | Incomplete
+|July 13| Adding CSS | Incomplete
+|July 13| Adding Media Queries CSS  | Incomplete
+|July 14| Adding buttons  | Incomplete
+|July 14| Adding emojis for graphic | Incomplete
+|July 14| Adding buttons  | Incomplete
+|July 15| Fetch API | Incomplete
+|July 15| Fetch API after each button clicked | Incomplete
+|July 15| Let API reset after each button clicked again  | Incomplete
+|July 15| Repeat/Fetch API after each button clicked| Incomplete
 |July 16| MVP | Incomplete
 |July 17| Presentations | Incomplete
 
@@ -59,7 +68,7 @@ https://app.lucidchart.com/invitations/accept/258c06a4-38f1-4404-a607-ea2c29f027
 | Fetch API| H | 5hrs| 0hrs | 0hrs |
 | Fetch API after each button clicked| H | 5hrs| 0hrs | 0hrs |
 | Let API reset after each button clicked again| H | 5hrs| 0hrs | 0hrs |
-| Fetch API after each button clicked | H | 5hrs| 0hrs | 0hrs |
+| Repeat/Fetch API after each button clicked again | H | 5hrs| 0hrs | 0hrs |
 | Total | H | 40hrs| 0hrs | 0hrs |
 
 ## Code Snippet

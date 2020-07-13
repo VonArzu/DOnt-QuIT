@@ -43,11 +43,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|July 10-12| Valid API and Priority Matrix  | Incomplete
 |July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
+|July 13| HTML with buttons and Mobile media query in CSS | Incomplete
+|July 14| Fetching the API to preform | Incomplete
+|July 15| First draft of buttons clicked and giving a motivational quote  | Incomplete
 |July 16| MVP | Incomplete
 |July 17| Presentations | Incomplete
 
@@ -63,9 +63,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding layout for mobile | H | 1hrs| 0hrs | 0hrs |
+| Adding buttons| H | 2hrs| 0hrs | 0hrs |
+| Adding emojis for graphic | H | 1hrs| 0hrs | 0hrs |
+| Fetch API after each button clicked | H | 3hrs| 0hrs | 0hrs |
+| Total | H | 7hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 

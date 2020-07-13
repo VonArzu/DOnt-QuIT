@@ -51,11 +51,12 @@ Include a full list of features that have been prioritized based on the `Time an
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding layout for mobile | H | 2hrs| 0hrs | 0hrs |
-| Adding buttons| H | 1hrs| 0hrs | 0hrs |
-| Adding emojis for graphic | H | 1hrs| 0hrs | 0hrs |
+| Adding layout for mobile | H | 5hrs| 0hrs | 0hrs |
+| Adding CSS| L | 3hrs| 0hrs | 0hrs |
+| Adding buttons| H | 4hrs| 0hrs | 0hrs |
+| Adding emojis for graphic | M | 2hrs| 0hrs | 0hrs |
 | Fetch API after each button clicked | H | 3hrs| 0hrs | 0hrs |
-| Total | H | 7hrs| 0hrs | 0hrs |
+| Total | H | 17hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 

@@ -32,7 +32,7 @@ display: flex;
 justify-content: space-around;
 }
 .button {
-  background-color:rgb(#67786A); /* Dark green */
+  background-color:#B1C4B4; /* Dark green #67786A*/
   border: none;
   padding: 20px;
   border-radius: 100%;
@@ -49,5 +49,11 @@ justify-content: space-around;
 .button6 { 
   /* border: 5px solid #B1C4B4;; */
   border-radius: 12px;
+}
+
+nav, footer{
+  background-color:#B1C4B4; /* Dark green */
+  /* color: #67786A; */
+  width: 100%;
 }
 }

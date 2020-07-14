@@ -39,12 +39,11 @@ https://wireframe.cc/sD5IAT
 |---|---| ---|
 |July 10-12| Prompt for Pitch | Complete
 |July 13| Project Approval | Complete
-|July 13| Adding layout for mobile | Incomplete
-|July 13| Adding CSS | Incomplete
-|July 13| Adding Media Queries CSS  | Incomplete
-|July 14| Adding buttons  | Incomplete
+|July 13| Adding layout for mobile | Complete
+|July 13| Adding CSS | Complete
+|July 13| Adding Media Queries CSS  | Complete
+|July 14| Adding buttons  | Complete
 |July 14| Adding emojis for graphic | Incomplete
-|July 14| Adding buttons  | Incomplete
 |July 15| Fetch API | Incomplete
 |July 15| Fetch API after each button clicked | Incomplete
 |July 15| Let API reset after each button clicked again  | Incomplete

@@ -58,9 +58,9 @@ https://app.lucidchart.com/invitations/accept/258c06a4-38f1-4404-a607-ea2c29f027
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding layout for mobile | H | 5hrs| 0hrs | 0hrs |
-| Adding CSS| L | 4hrs| 0hrs | 0hrs |
-| Adding Media Queries CSS| L | 4hrs| 0hrs | 0hrs |
+| Adding layout for mobile | H | 5hrs| 0hrs | 3hrs |
+| Adding CSS| L | 4hrs| 0hrs | 3hrs |
+| Adding Media Queries CSS| L | 4hrs| 0hrs | 8hrs |
 | Adding buttons| H | 4hrs| 0hrs | 0hrs |
 | Adding emojis for graphic | M | 3hrs| 0hrs | 0hrs |
 | Fetch API| H | 5hrs| 0hrs | 0hrs |

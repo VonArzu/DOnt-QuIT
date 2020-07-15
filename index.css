@@ -1,65 +1,234 @@
-@media only screen and (max-width: 600px) {
-
-/* When the width of this document is 600 pixels or less, 
-everything under this happens */
-
-body{
-  text-align: center;
-  flex-direction: column;
-}
-
 header{
-  /* border: 15px solid #B1C4B4; */
-  display: flex;
-  flex-direction:column;
-  color: rgb(237, 173, 46);
+  background-color: whitesmoke;
 }
-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-}
-article {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-ul{
-list-style-type: none;
-padding-left: 15px;
-display: flex;
-justify-content: space-around;
-}
-.button {
-  background-color:#B1C4B4; /* Dark green #67786A*/
-  border: none;
-  padding: 20px;
-  border-radius: 100%;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button3 {
-  /* border: 5px solid #B1C4B4; */
-  border-radius: 100%;
-}
-.button6 { 
-  /* border: 5px solid #B1C4B4;; */
-  border-radius: 12px;
-}
-
+  
+  .button:hover {background-color: black}
+  .button{
+    box-shadow: 0 9px #999;
+    transform: translateY(4px);
+  }
+  .button:active {
+    background-color: black;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+  }
 nav, footer{
-  background-color:#B1C4B4; /* Dark green */
-  /* color: #67786A; */
-  width: 100%;
+  box-shadow: 0 9px #C4BCC4;
 }
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
 @media only screen and (max-width: 768px) {
-}
-@media only screen and (max-width: 1024px) {
-}
-@media only screen and (max-width: 1200px) {
-}
+
+  /* When the width of this document is 768 pixels or less, 
+  everything under this happens */
+  
+  body{
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  header{
+    /* border: 15px solid #B1C4B4; */
+    display: flex;
+    flex-direction:column;
+    color:#67786A;
+    margin: 0 auto;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+  }
+  article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  ul{
+  list-style-type: none;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-around;
+  }
+  .button {
+    background-color:#C4C3B3; /* Dark green #67786A*/
+    color: #67786A;
+    border: none;
+    padding: 20px;
+    border-radius: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button3 {
+    /* border: 5px solid #B1C4B4; */
+    border-radius: 100%;
+  }
+  .button6 { 
+    /* border: 5px solid #B1C4B4;; */
+    border-radius: 12px;
+    margin-bottom: 50px;
+  }
+  
+  nav, footer{
+    background-color:#C4C3B3; /* Dark green */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    color: #67786A;
+    margin: 0 auto;
+  }
+  a{
+    color:  #67786A;
+  }
+  }
+@media only screen and (min-width: 768px) {
+
+  /* When the width of this document is 768 pixels or less, 
+  everything under this happens */
+  
+  body{
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  header{
+    /* border: 15px solid #B1C4B4; */
+    display: flex;
+    flex-direction:column;
+    color: rgb(194, 135, 18);
+    margin: 0 auto;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+  }
+  article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  ul{
+  list-style-type: none;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-around;
+  }
+  .button {
+    background-color:#B1C4B4; /* Dark green #67786A*/
+    color: rgb(194, 135, 18);
+    border: none;
+    padding: 20px;
+    border-radius: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button3 {
+    /* border: 5px solid #B1C4B4; */
+    border-radius: 100%;
+  }
+  .button6 { 
+    /* border: 5px solid #B1C4B4;; */
+    border-radius: 12px;
+    margin-bottom: 50px;
+  }
+  
+  nav, footer{
+    background-color:#B1C4B4; /* Dark green */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    color:rgb(194, 135, 18);
+    margin: 0 auto;
+  }
+  a{
+    color:rgb(194, 135, 18);
+  }
+  }
+  
+    @media only screen and (min-width: 1024px) {
+
+      /* When the width of this document is 600 pixels or less, 
+      everything under this happens */
+      
+      body{
+        text-align: center;
+        flex-direction: column;
+      }
+      
+      header{
+        /* border: 15px solid #B1C4B4; */
+        display: flex;
+        flex-direction:column;
+        color: rgb(237, 173, 46);
+        margin: 0 auto;
+      }
+      section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      
+      }
+      article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      ul{
+      list-style-type: none;
+      padding-left: 15px;
+      display: flex;
+      justify-content: space-around;
+      }
+      .button {
+        background-color:#67786A; /* Like a mint green and Dark green is #67786A*/
+        color: white;
+        border: none;
+        padding: 20px;
+        border-radius: 100%;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .button3 {
+        /* border: 5px solid #B1C4B4; */
+        border-radius: 100%;
+      }
+      .button6 { 
+        /* border: 5px solid #B1C4B4;; */
+        border-radius: 12px;
+        margin-bottom: 50px;
+      }
+      
+      nav, footer{
+        background-color:#67786A; /* Dark green */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        color: white;
+        margin: 0 auto;
+      }
+      a{
+        color: white;
+      }
+      }

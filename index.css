@@ -12,6 +12,9 @@ header{
     box-shadow: 0 5px white;
     transform: translateY(4px);
   }
+  section, article{
+    padding-bottom: 20px;
+  }
 nav, footer{
   box-shadow: 0 9px #C4BCC4;
 }
@@ -27,7 +30,8 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
-/* when button is click it goes up .up {
+
+/* .button{
   animation-name: animaUp;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;

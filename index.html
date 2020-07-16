@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOnt QuIT</title>
   <link rel="stylesheet" type="text/css" href="index.css">
-  <script src="app.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="app.js"></script>
+
 </head>
 
 <body>
@@ -24,25 +25,26 @@
 
   <main>
     <section>
-      <button onclick="getRandomQuote()" class="button button1">Happy</button>
+      <div>
+        <button class="button button1">Happy</button>
+      </div>
 
-      <button onclick="getRandomQuote()" class="button button2">Sad</button>
+      <button class="button button2">Sad</button>
     </section>
 
     <article>
-      <buttonon onclick="getRandomQuote()" class="button button3">Bored</button>
+      <button class="button button3">Bored</button>
     </article>
 
     <section>
-      <button onclick="getRandomQuote()" class="button button4">Mad</button>
-      <button onclick="getRandomQuote()" class="button button5">Confused</button>
+      <button class="button button4">Mad</button>
+      <button class="button button5">Confused</button>
     </section>
 
     <article>
-      <button onclick="getRandomQuote()" class="button button6">I Don't Know</button>
+      <button class="button button6">I Don't Know</button>
     </article>
 
-    <div id="text" class="text"></div>
   </main>
 
 

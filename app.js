@@ -1,51 +1,42 @@
 let response = []; //save large array of all quotes
 
-const getDataQuotes = async () => {
-  try { //try "this" and throw error to catch
-    let res = await axios.get('https://type.fit/api/quotes')
-    response = res.data; //from console in f12
+async function getDataQuotes() {
+  console.log(this);
+  let openButtons = document.querySelectorAll('.open');
+  openButtons.forEach(button => {
+    button.remove();
+  })
+  try {                                           //try "this" and throw error to catch
+    let res = await axios.get('https://type.fit/api/quotes');
+    let response = res.data;                      //from console in f12
     //Math . rand for random quotes
     const quote = response;
-    const random;
 
-    random = Math.floor(Math.random() * quote.legth);
-
-
-    const quote = document.querySelector('.button');
-    let buttons = buttons.innerText = response[random].text
-
-
-    document.getElementById('text').innerHTML += quote[random];
+    const getRandomQuote = quote[Math.floor(Math.random() * quote.length)];
+    console.log(getRandomQuote);
+    let span = document.createElement('span');
+    span.innerText = getRandomQuote.text
+    span.classList.add('open');
+    this.parentNode.insertBefore(span, this.nextSibling)
 
   } catch (e) {
     console.log(e.message);
+
   }
 }
-getDataQuotes();
-//Next how to append
+// button.parentNode.insertBefore(div, button.nextSibling)
+//add quotes to button w/on click
 
-const addQuotes = (quotes, element) => {
+const button1 = document.querySelector('.button1');
+const button2 = document.querySelector('.button2');
+const button3 = document.querySelector('.button3');
+const button4 = document.querySelector('.button4');
+const button5 = document.querySelector('.button5');
+const button6 = document.querySelector('.button6');
 
-  list.forEach((quote) => {
-    const option = document.createElement('option')
-    option.value = `${quote}`
-    option.text = `${quote}`
-    element.append(quote)
-  })
+const buttons = document.querySelectorAll('button');
+console.log(buttons);
+buttons.forEach(button => {
 
-
-
-  // let buttons = document.querySelectorAll('.button');
-
-  // buttons.forEach((button) => {
-  //   button.click.add(getDataQuotes);
-  // })
-  // document.querySelector('')
-
-}
-addQuotes();
-
-// getRandomQuote = () => {
-//   return Math.floor(Math.random() * Math.floor(innerText));
-// }
-// document.querySelector('#quotes').innerHTML = getRandomQuote();
+  button.addEventListener("click", getDataQuotes);
+})

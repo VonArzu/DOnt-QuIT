@@ -43,9 +43,9 @@ https://wireframe.cc/sD5IAT
 |July 14| Adding buttons  | Complete
 |July 14| Adding emojis for graphic | Deleted
 |July 15| Fetch API | Complete
-|July 15| Fetch API after each button clicked | Incomplete
-|July 15| Remove & Repeat Fetch API after each button clicked again | Incomplete
-|July 16| MVP | 80% Complete
+|July 15| Fetch API after each button clicked | Complete
+|July 15| Remove & Repeat Fetch API after each button clicked again | Complete
+|July 16| MVP | Complete
 |July 17| Presentations | Incomplete
 
 ## Priority Matrix
@@ -56,25 +56,27 @@ https://app.lucidchart.com/invitations/accept/258c06a4-38f1-4404-a607-ea2c29f027
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding layout for mobile | H | 5hrs| 3hrs | 3hrs |
+| Adding layout for mobile | H | 5hrs| 3hrs | 5hrs |
 | Adding CSS| L | 4hrs| 3hrs | 3hrs |
-| Adding Media Queries CSS| L | 4hrs| 4hrs | 8hrs |
-| Adding buttons| H | 4hrs| 1hrs | 0hrs |
+| Adding Media Queries CSS| L | 4hrs| 4hrs | 5hrs |
+| Adding buttons| H | 4hrs| 1hrs | 1hrs |
 | Adding emojis for graphic | M | 3hrs| 5hrs | 5hrs |
-| Fetch API| H | 5hrs| 1hrs | 0hrs |
-| Fetch API after each button clicked| H | 5hrs| 10hrs | 0hrs |
-| Remove & Repeat Fetch API after each button clicked again | H | 5hrs| 0hrs | 0hrs |
-| Total | H | 40hrs| 0hrs | 0hrs |
+| Fetch API| H | 5hrs| 1hrs | 1hrs |
+| Fetch API after each button clicked| H | 5hrs| 10hrs | 15hrs |
+| Remove & Repeat Fetch API after each button clicked again | H | 3hrs| 1hrs | 1hrs |
+| Total | H | 40hrs| 30hrs | 30hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-Goals:
-happyButton = () =>{
-document.querySelector('.happy').onClick('randomQoute');
-}
+const buttons = document.querySelectorAll('button');
+console.log(buttons);
+buttons.forEach(button => {
+
+  button.addEventListener("click", getDataQuotes);
+})
 ```
 
 ## Change Log

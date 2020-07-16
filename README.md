@@ -28,7 +28,7 @@ https://wireframe.cc/sD5IAT
 #### PostMVP  
 
 - Add more design/css to the bottom (a lot of white space so far)
-- Add animation,like, button goes up when clicked to show quote and quote glides in
+- Add animation, like, button goes up when clicked to show quote and quote glides in
 
 
 ## Project Schedule
@@ -71,13 +71,14 @@ https://app.lucidchart.com/invitations/accept/258c06a4-38f1-4404-a607-ea2c29f027
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-happyEmoji = () =>{
+Goals:
+happyButton = () =>{
 document.querySelector('.happy').onClick('randomQoute');
 }
 ```
 
 ## Change Log
-I deleted the emojis on each button because it was not aesthetically pleaseing to the eye. It was ugly and took way too much time to crop to circles to fit each button. 
+I deleted the emojis on each button because it was not aesthetically pleasing to the eye. It was ugly and took way too much time to crop to circles to fit each button. 
 
 I also deleted "|July 15| Let API reset after each button clicked again  | Incomplete" because it was no difference in ther fetch API. There are over 1600 quotes and a new one comes up everytime. No need for a reset.
 

@@ -5,6 +5,7 @@ const getDataQuotes = async () => {
     let res = await axios.get('https://type.fit/api/quotes')
     response = res.data; //from console in f12
     //Math . rand for random quotes
+
     //append to page
     let buttons = document.querySelector('.button');
     buttons.innerText = response[277].text
@@ -16,17 +17,28 @@ const getDataQuotes = async () => {
 getDataQuotes();
 //Next how to append
 
-const addQuotes = (button) => {
+const addQuotes = (quotes, element) => {
 
-  let buttons = document.querySelectorAll('.button');
-
-  buttons.forEach((button) => {
-    button.click.add(getDataQuotes);
+  list.forEach((quote) => {
+    const option = document.createElement('option')
+    option.value = `${quote}`
+    option.text = `${quote}`
+    element.append(quote)
   })
-  document.querySelector('')
 
 
 
-  addQuotes(button);
+  // let buttons = document.querySelectorAll('.button');
+
+  // buttons.forEach((button) => {
+  //   button.click.add(getDataQuotes);
+  // })
+  // document.querySelector('')
+
 }
-document.querySelector('button').onclick = getDataQuotes;
+addQuotes();
+
+// getRandomQuote = () => {
+//   return Math.floor(Math.random() * Math.floor(innerText));
+// }
+// document.querySelector('#quotes').innerHTML = getRandomQuote();

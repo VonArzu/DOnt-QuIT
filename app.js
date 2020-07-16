@@ -5,10 +5,15 @@ const getDataQuotes = async () => {
     let res = await axios.get('https://type.fit/api/quotes')
     response = res.data; //from console in f12
     //Math . rand for random quotes
+    const random;
+    random = Math.floor(Math.random() * quote.legth);
 
-    //append to page
-    let buttons = document.querySelector('.button');
-    buttons.innerText = response[277].text
+    const quote = document.querySelector('.button');
+    let buttons = buttons.innerText = response[random].text
+
+
+
+    document.getElementById('text').innerHTML += quote[random];
 
   } catch (e) {
     console.log(e.message);
